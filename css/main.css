@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+:root {
+  --blurple:#7289da;
+}
+
+body {
+  background: #36393e;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: #424549;
+  padding: 0.5em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--blurple);
+  font-weight: bold;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #1e2124;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+  margin-top: -3em;
+}
+
+.left-col .subhead {
+  font-weight: bold;
+  color: white;
+}
+
+.left-col p {
+  font-size: 1em;
+  line-height: 2.5em;
+  margin-top: -.1em;
+  color: white;
+}
+
+.left-col .primary-cta {
+  background: var(--blurple);
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  display: inline-block;
+}
+
+.left-col .get-support-cta {
+  display: block;
+  margin-top: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.left-col .get-support-cta img {
+  margin-right: .5em;
+}
+
+.hero-img {
+  display: none;
+  width: 30%;
+  border-radius: 1.5em;
+  margin-top: 2em;
+}
+
+section.features-section {
+  background: #282b30;
+  color: white;
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+
+.cards-section {
+  background: #282b30;
+  padding-bottom: .01em;
+}
+
+.cards-section ul li {
+  background: var(--blurple);
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+  color: white;
+}
+
+.cards-section ul li .codeimg {
+  width: 6em;
+  height: 6em;
+  border: 0.001px solid var(--blurple) !important;
+  margin-top: -4.5em;
+  background: var(--blurple);
+}
+
+.cards-section ul li img {
+  width: 5em;
+  height: 5em;
+  border: 5px solid var(--blurple);
+  border-radius: 50%;
+  margin-top: -4.5em;
+  background: var(--blurple);
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer span {
+  color: var(--blurple);
+}
+/*# sourceMappingURL=main.css.map */
