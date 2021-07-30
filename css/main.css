@@ -126,6 +126,14 @@ section.features-section {
           box-shadow: 0 0 25px #000;
 }
 
+.cards-section ul li h1 {
+  font-weight: normal;
+}
+
+.cards-section ul li p {
+  font-weight: lighter;
+}
+
 .cards-section ul li img {
   width: 5em;
   height: 5em;
@@ -136,7 +144,7 @@ section.features-section {
 }
 
 .cards-section ul li:hover {
-  width: 55%;
+  width: 51%;
 }
 
 .footer {
