@@ -144,7 +144,7 @@ section.features-section {
 }
 
 .cards-section ul li:hover {
-  width: 51%;
+  background: #687dc5;
 }
 
 .footer {
