@@ -117,7 +117,8 @@ section.features-section {
 .cards-section ul li {
   background: var(--blurple);
   text-align: center;
-  padding: 2em 1em;
+  padding: .75em 1em;
+  padding-bottom: .75em;
   width: 50%;
   margin: 0 auto 5em auto;
   border-radius: 1em;
@@ -144,7 +145,7 @@ section.features-section {
 }
 
 .cards-section ul li:hover {
-  background: #687dc5;
+  background: #596ba7;
 }
 
 .footer {
