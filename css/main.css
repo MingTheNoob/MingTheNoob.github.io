@@ -82,14 +82,17 @@ section {
 }
 
 .left-col .get-support-cta {
-  display: block;
   margin-top: 1em;
   text-decoration: none;
   color: white;
+  font-size: 1em;
 }
 
 .left-col .get-support-cta img {
-  margin-right: .5em;
+  margin-right: .3em;
+  margin-bottom: -.20em;
+  text-align: center;
+  width: 15%;
 }
 
 .hero-img {
@@ -115,18 +118,12 @@ section.features-section {
   background: var(--blurple);
   text-align: center;
   padding: 2em 1em;
-  width: 80%;
+  width: 50%;
   margin: 0 auto 5em auto;
   border-radius: 1em;
   color: white;
-}
-
-.cards-section ul li .codeimg {
-  width: 6em;
-  height: 6em;
-  border: 0.001px solid var(--blurple) !important;
-  margin-top: -4.5em;
-  background: var(--blurple);
+  -webkit-box-shadow: 0 0 25px #000;
+          box-shadow: 0 0 25px #000;
 }
 
 .cards-section ul li img {
@@ -136,6 +133,10 @@ section.features-section {
   border-radius: 50%;
   margin-top: -4.5em;
   background: var(--blurple);
+}
+
+.cards-section ul li:hover {
+  width: 55%;
 }
 
 .footer {
