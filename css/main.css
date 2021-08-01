@@ -6149,7 +6149,7 @@ textarea.form-control-lg {
 }
 
 .link-light {
-  color: #f8f9fa;
+  color: var(--gray69);
   text-decoration: none;
 }
 .link-light:hover, .link-light:focus {
@@ -10864,11 +10864,12 @@ html {
 }
 
 .navbar-brand {
-    font-family: Poppins;
-    font-weight: bold;
+    font-family: Poppins !important;
+    font-weight: normal;
 }
 .navbar-brand span {
     color: var(--blurple);
+    font-weight: bold;
 }
 
 nav.bg-dark {
@@ -10880,11 +10881,12 @@ header.bg-dark {
 
 .h1boi {
     font-family: Poppins;
-    font-weight: bold !important;
+    font-weight: normal !important;
     padding-bottom: .75em;
 }
 .h1boi span {
     color: var(--blurple);
+    font-weight: bold;
 }
 
 .p1boi {
@@ -10965,8 +10967,8 @@ header.bg-dark {
 
 .sm-boipart {
     font-family: Poppins;
-    margin-bottom: .5em !important;
     font-weight: normal;
+    font-size: 1.25em;
 }
 .sm-boipart span {
     color: var(--blurple);
@@ -10975,4 +10977,20 @@ header.bg-dark {
 
 .bi-twitter {
     color: #1DA1F2;
+}
+.bi-github, 
+.bi-discord {
+    color: white;
+}
+.bi-file-earmark-text-fill,
+.bi-shield-fill-check,
+.bi-question-circle-fill {
+    color: white;
+}
+
+@media (max-width: 518px) {
+    .footerpt2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
