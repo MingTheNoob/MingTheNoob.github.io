@@ -18,6 +18,7 @@
     --gray2: #36393e;
     --gray3: #282b30;
     --gray4: #1e2124;
+    --gray69: rgba(255, 255, 255, 0.69);
 
     --blue: #0d6efd;
     --indigo: #6610f2;
@@ -3679,7 +3680,7 @@ textarea.form-control-lg {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.69);
+  color: var(--gray69);
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -3687,7 +3688,7 @@ textarea.form-control-lg {
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: rgba(255, 255, 255, 0.69);
+  color: var(--gray69);
   background-color: var(--gray3);
 }
 .dropdown-item.active, .dropdown-item:active {
@@ -4232,7 +4233,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.69);
+  color: var(--gray69);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -7394,7 +7395,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #0d6efd !important;
+  background-color: var(--blurple) !important;
 }
 
 .bg-secondary {
@@ -10914,4 +10915,18 @@ header.bg-dark {
 
 .h2boi2 {
     font-weight: bolder;
+}
+
+.p2boi {
+    color: var(--gray69);
+}
+
+.h2boi3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal !important;
+}
+
+.p3boi {
+    color: var(--gray69) !important;
 }
