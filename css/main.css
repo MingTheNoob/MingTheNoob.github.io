@@ -3694,7 +3694,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #0d6efd;
+  background-color: var(--blurple);
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -3950,9 +3950,9 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  overflow: hidden;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4263,10 +4263,10 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: var(--gray2);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 .card > hr {
   margin-right: 0;
@@ -4640,7 +4640,7 @@ textarea.form-control-lg {
   display: inline-block;
   padding: 0.35em 0.65em;
   font-size: 0.75em;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -6150,6 +6150,7 @@ textarea.form-control-lg {
 
 .link-light {
   color: #f8f9fa;
+  text-decoration: none;
 }
 .link-light:hover, .link-light:focus {
   color: #f9fafb;
@@ -10929,4 +10930,49 @@ header.bg-dark {
 
 .p3boi {
     color: var(--gray69) !important;
+}
+
+.h5boi {
+    color: white;
+    font-weight: bold;
+}
+
+.p4boi {
+    color: var(--gray69);
+}
+
+.bg-support {
+    background-color: var(--gray1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-support {
+    text-decoration: none;
+    border-radius: .5em;
+    color: white;
+    background-color: var(--blurple);
+}
+
+.section2boi {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.sm-boipart2 {
+    justify-content: center !important;
+    margin-bottom: .5em !important;
+}
+
+.sm-boipart {
+    font-family: Poppins;
+    margin-bottom: .5em !important;
+    font-weight: normal;
+}
+.sm-boipart span {
+    color: var(--blurple);
+    font-weight: bold;
+}
+
+.bi-twitter {
+    color: #1DA1F2;
 }
