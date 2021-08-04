@@ -10958,6 +10958,30 @@ footer.bg-dark {
   color: #1DA1F2;
 }
 
+.footerbrand {
+  font-family: Poppins;
+}
+.footerspan1 {
+  color: var(--blurple);
+  font-weight: 600;
+}
+.footerspan2 {
+  font-family: var(--open-sans);
+}
+.footerlink {
+  text-decoration: none;
+  color: var(--gray69);
+}
+.footerlink span {
+  padding-left: .1em;
+}
+.footerlink:hover span {
+  color: white;
+  text-decoration: underline;
+}
+.bi-file-earmark-text-fill, .bi-shield-fill-check, .bi-question-circle-fill {
+  color: white;
+}
 @media (max-width: 467px) {
   .cpxl-1 {
       padding-left: 1em !important;
