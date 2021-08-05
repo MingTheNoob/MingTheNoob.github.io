@@ -69,6 +69,16 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+body::-webkit-scrollbar {
+  width: .5em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--blurple);
+  border-radius: 5em;
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--gray4);
+}
 
 hr {
   margin: 1rem 0;
@@ -3697,7 +3707,7 @@ textarea.form-control-lg {
   background-color: var(--blurple);
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
-  color: #adb5bd;
+  color: var(--gray1);
   pointer-events: none;
   background-color: transparent;
 }
@@ -10985,6 +10995,21 @@ footer.bg-dark {
 }
 .bi-file-earmark-text-fill, .bi-shield-fill-check, .bi-question-circle-fill {
   color: white;
+}
+
+.dropdown-language-list {
+  max-height: 8em;
+  overflow-y: scroll;
+}
+.dropdown-language-list::-webkit-scrollbar {
+  width: .5em;
+}
+.dropdown-language-list::-webkit-scrollbar-thumb {
+  background-color: var(--blurple);
+  border-radius: 5em;
+}
+.dropdown-language-list::-webkit-scrollbar-track {
+  background-color: var(--gray4);
 }
 
 @media (max-width: 467px) {
