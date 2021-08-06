@@ -65,7 +65,10 @@
 
 .lang-icon-fr {
   background-image: url(../icons/rectangle/francais.svg);
-
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-fr.lang-icon-squared {
   background-image: url(../icons/square/francais.svg);
@@ -104,13 +107,87 @@
   background-image: url(../icons/square/norsk.svg);
 }
 
-.lang-icon-se {
+.lang-icon-sv {
   background-image: url(../icons/rectangle/svenska.svg);
   border-top-left-radius: .3em;
   border-top-right-radius: .2em;
   border-bottom-left-radius: .3em;
   border-bottom-right-radius: .2em;
 }
-.lang-icon-se.lang-icon-squared {
+.lang-icon-sv.lang-icon-squared {
   background-image: url(../icons/square/svenska.svg);
+}
+
+@media (max-width: 892px) {
+  .lang-icon-dk {
+    background-image: url(../icons/rectangle/dansk.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+ 
+  .lang-icon-de {
+    background-image: url(../icons/rectangle/deutsch.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-gb {
+    background-image: url(../icons/rectangle/english.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-es {
+    background-image: url(../icons/rectangle/espanol.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-fr {
+    background-image: url(../icons/rectangle/francais.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-it {
+    background-image: url(../icons/rectangle/italiano.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+  
+  .lang-icon-nl {
+    background-image: url(../icons/rectangle/nederlands.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-no {
+    background-image: url(../icons/rectangle/norsk.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
+
+  .lang-icon-sv {
+    background-image: url(../icons/rectangle/svenska.svg);
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+  }
 }
