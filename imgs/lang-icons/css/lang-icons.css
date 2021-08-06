@@ -21,6 +21,10 @@
 
 .lang-icon-dk {
   background-image: url(../icons/rectangle/dansk.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-dk.lang-icon-squared {
   background-image: url(../icons/square/dansk.svg);
@@ -28,6 +32,10 @@
 
 .lang-icon-de {
   background-image: url(../icons/rectangle/deutsch.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-de.lang-icon-squared {
   background-image: url(../icons/square/deutsch.svg);
@@ -35,6 +43,10 @@
 
 .lang-icon-gb {
   background-image: url(../icons/rectangle/english.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-gb.lang-icon-squared {
   background-image: url(../icons/square/english.svg);
@@ -42,6 +54,10 @@
 
 .lang-icon-es {
   background-image: url(../icons/rectangle/espanol.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-es.lang-icon-squared {
   background-image: url(../icons/square/espanol.svg);
@@ -49,6 +65,7 @@
 
 .lang-icon-fr {
   background-image: url(../icons/rectangle/francais.svg);
+
 }
 .lang-icon-fr.lang-icon-squared {
   background-image: url(../icons/square/francais.svg);
@@ -56,6 +73,10 @@
 
 .lang-icon-it {
   background-image: url(../icons/rectangle/italiano.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-it.lang-icon-squared {
   background-image: url(../icons/square/italiano.svg);
@@ -63,6 +84,10 @@
 
 .lang-icon-nl {
   background-image: url(../icons/rectangle/nederlands.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-nl.lang-icon-squared {
   background-image: url(../icons/square/nederlands.svg);
@@ -70,6 +95,10 @@
 
 .lang-icon-no {
   background-image: url(../icons/rectangle/norsk.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-no.lang-icon-squared {
   background-image: url(../icons/square/norsk.svg);
@@ -77,6 +106,10 @@
 
 .lang-icon-se {
   background-image: url(../icons/rectangle/svenska.svg);
+  border-top-left-radius: .3em;
+  border-top-right-radius: .2em;
+  border-bottom-left-radius: .3em;
+  border-bottom-right-radius: .2em;
 }
 .lang-icon-se.lang-icon-squared {
   background-image: url(../icons/square/svenska.svg);
