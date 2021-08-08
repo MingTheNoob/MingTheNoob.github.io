@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*!
 * Start Bootstrap - Modern Business v5.0.3 (https://startbootstrap.com/template-overviews/modern-business)
 * Copyright 2013-2021 Start Bootstrap
@@ -41,7 +40,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --open-sans: Open Sans, sans-serif;
+  --noto-sans: Noto Sans, sans-serif;
+  --poppins: Poppins, Open Sans, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
@@ -60,7 +60,7 @@
 
 body {
   margin: 0;
-  font-family: var(--open-sans);
+  font-family: var(--noto-sans);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
-  font-family: Poppins;
+  font-family: var(--poppins);
   font-weight: normal !important;
 }
 .navbar-brand span {
@@ -5542,7 +5542,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--open-sans);
+  font-family: var(--noto-sans);
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5644,7 +5644,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--open-sans) ;
+  font-family: var(--noto-sans) ;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7407,7 +7407,7 @@ textarea.form-control-lg {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: var(--gray69) !important;
 }
 
 .text-black-50 {
@@ -10921,7 +10921,7 @@ footer.bg-dark {
 }
 
 .h1boi {
-  font-family: Poppins;
+  font-family: var(--poppins);
   font-weight: 500 !important;
   margin: 0 !important;
   padding-bottom: .5em;
@@ -10955,7 +10955,7 @@ footer.bg-dark {
 }
 
 .section2boi {
-  background-color: var(--gray3);
+  background-color: var(--gray3) !important;
 }
 .section2h2boi {
   color: white;
@@ -10976,14 +10976,14 @@ footer.bg-dark {
 }
 
 .footerbrand {
-  font-family: Poppins;
+  font-family: var(--poppins);
 }
 .footerspan1 {
   color: var(--blurple);
   font-weight: 600;
 }
 .footerspan2 {
-  font-family: var(--open-sans);
+  font-family: var(--noto-sans);
 }
 .footerbrand a {
   text-decoration: none;
@@ -11003,7 +11003,6 @@ footer.bg-dark {
 .bi-file-earmark-text-fill, .bi-shield-fill-check, .bi-question-circle-fill {
   color: white;
 }
-
 .dropdown-language-list {
   max-height: 8em;
   overflow-y: scroll;
@@ -11027,6 +11026,29 @@ footer.bg-dark {
 .roundedboi {
   border-radius: .75rem !important;
 }
+.h1boiabout {
+  color: white;
+  font-family: var(--noto-sans);
+}
+.h1boiabout span {
+  color: var(--blurple);
+}
+.p1boiabout {
+  color: var(--gray69);
+}
+.roundedimgboi2 {
+  border-radius: 2rem;
+  width: 65% !important;
+}
+.roundedimgboi3 {
+  border-radius: 2rem;
+  width: 65% !important;
+  margin-left: 5rem !important;
+}
+.heading-white {
+  color: white;
+}
+
 @media (max-width: 467px) {
   .cpxl-1 {
       padding-left: 1em !important;
@@ -11061,4 +11083,11 @@ footer.bg-dark {
       padding-left: .5em !important;
       padding-right: .5em !important;
   }
+}
+@media (max-width: 991px) {
+  .roundedimgboi2 {
+    border-radius: 2rem;
+    width: 70% !important;
+    margin-left: 3.75rem;
+  } 
 }
