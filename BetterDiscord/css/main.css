@@ -33,11 +33,10 @@ body {
     background-color: #1e2124;
 }
 
-h1 {
+.qi97trgduqigY2D {
     font-family: 'Discord', sans-serif;
     font-weight: 500;
-    letter-spacing: 2px;
-    font-size: 5rem;
+    font-size: 3.5rem;
 }
 
 .oaihug {
@@ -45,6 +44,7 @@ h1 {
     text-align: center;
     background: linear-gradient(10deg, #7289da 0%, #5865F2 100%);
     color: white;
+    z-index: 9999;
 }
 
 .sughaagouih {
@@ -89,6 +89,36 @@ h1 {
     animation-delay: -5s;
     animation-duration: 20s;
 }
+
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.aoghiaouwghfig {
+    padding-top: 2em;
+    padding-left: 2em;
+    text-align: left;
+    font-family: 'Whitney', sans-serif;
+    color: white;
+}
+.aoghiaouwghfig span {
+    padding-left: 0.3em;
+}
+.aoghiaouwghfig a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: small;
+}
+.aoghiaouwghfig a:hover {
+    font-weight: 700;
+}
+
 
 @keyframes move-forever {
     0% {

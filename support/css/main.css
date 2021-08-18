@@ -90,6 +90,15 @@ h1 {
     animation-duration: 20s;
 }
 
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
 @keyframes move-forever {
     0% {
         transform: translate3d(-90px,0,0);
