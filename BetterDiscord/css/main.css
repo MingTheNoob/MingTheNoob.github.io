@@ -10,7 +10,7 @@
 @font-face {
 	font-family: Whitney;
 	font-weight: 400;
-	src: url(https://ming.jp.net/assets/fonts/fonts/Whitney400.woff) format("woff");
+	src: url(https://ming.jp.net/assets/fonts/Whitney400.woff) format("woff");
 }
 @font-face {
 	font-family: Whitney;
@@ -155,5 +155,8 @@ body {
     }
     .qi97trgduqigY2D {
         font-size: 1.25rem;
+    }
+    .aoghiaouwghfig {
+        padding-left: 1em !important; 
     }
 }
