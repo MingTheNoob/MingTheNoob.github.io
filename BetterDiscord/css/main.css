@@ -138,3 +138,22 @@ body {
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 400px) {
+    .segh08yugaw9gyhvuawIzv {
+        height: 15vh;
+        min-height: 40px;
+    }
+    .qi97trgduqigY2D {
+        font-size: 1.25rem;
+    }
+}
+@media (min-width: 400px) and (max-width: 414px) {
+    .segh08yugaw9gyhvuawIzv {
+        height: 15vh;
+        min-height: 40px;
+    }
+    .qi97trgduqigY2D {
+        font-size: 1.25rem;
+    }
+}
