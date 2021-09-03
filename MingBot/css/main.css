@@ -1,32 +1,4 @@
-@font-face {
-	font-family: Discord;
-	src: url(https://ming.jp.net/assets/fonts/Discord.otf);
-}
-@font-face {
-	font-family: Whitney;
-	font-weight: 300;
-	src: url(https://ming.jp.net/assets/fonts/Whitney300.woff) format("woff");
-}
-@font-face {
-	font-family: Whitney;
-	font-weight: 400;
-	src: url(https://ming.jp.net/assets/fonts/Whitney400.woff) format("woff");
-}
-@font-face {
-	font-family: Whitney;
-	font-weight: 500;
-	src: url(https://ming.jp.net/assets/fonts/Whitney500.woff) format("woff");
-}
-@font-face {
-	font-family: Whitney;
-	font-weight: 600;
-	src: url(https://ming.jp.net/assets/fonts/Whitney600.woff) format("woff");
-}
-@font-face {
-	font-family: Whitney;
-	font-weight: 700;
-	src: url(https://ming.jp.net/assets/fonts/Whitney700.woff) format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
     margin:0;
@@ -34,7 +6,7 @@ body {
 }
 
 .qi97trgduqigY2D {
-    font-family: 'Discord', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
     font-size: 3.5rem;
 }
@@ -98,27 +70,6 @@ body {
           -ms-user-select: none;
               user-select: none;
 }
-
-.aoghiaouwghfig {
-    padding-top: 2em;
-    padding-left: 2em;
-    text-align: left;
-    font-family: 'Whitney', sans-serif;
-    color: white;
-}
-.aoghiaouwghfig span {
-    padding-left: 0.3em;
-}
-.aoghiaouwghfig a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    font-size: small;
-}
-.aoghiaouwghfig a:hover {
-    font-weight: 700;
-}
-
 
 @keyframes move-forever {
     0% {
