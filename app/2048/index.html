@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="2048 Minigame that I made for BlitzCream.">
+		<meta name="keywords" content="ming, Ming, Ming'sUtilities, MingsUtilities, mingsutilities, 2048, 2048 game">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="title" content="Ming'sUtilities">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ming.jp.net">
+        <meta property="og:title" content="Ming'sUtilities - 2048 Game">
+        <meta property="og:description" content="2048 Minigame that I made for BlitzCream.">
+        <meta property="og:image" content="https://ming.jp.net/src/imgs/ming.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://ming.jp.net">
+        <meta property="twitter:title" content="Ming'sUtilities - 2048 game">
+        <meta property="twitter:description" content="2048 Minigame that I made for BlitzCream.">
+        <meta property="twitter:image" content="https://ming.jp.net/src/imgs/ming.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="https://ming.jp.net/src/imgs/favicon/android-chrome-192x192.png">
+		<link rel="icon" type="image/png" sizes="512x512" href="https://ming.jp.net/src/imgs/favicon/android-chrome-512x512.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://ming.jp.net/src/imgs/favicon/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://ming.jp.net/src/imgs/favicon/favicon-32x32.png">
+		<link rel="apple-touch-icon" href="https://ming.jp.net/src/imgs/favicon/apple-touch-icon.png">
+		<link rel="shortcut icon" href="https://ming.jp.net/src/imgs/favicon/favicon.ico">
+		<link rel="stylesheet" href="css/main.css">
+		<title>2048</title>
+    </head>
+    <body class="user-select-none">
+        <div class="container">
+            <div class="heading">
+                <h1 class="title">
+                    <a href="">2048</a>
+                </h1>
+                <div class="scores-container">
+                    <div class="score-container">
+                        <p class="title">SCORE</p>
+                        <P class="score">0</P>
+                        <div class="score-addition">
+                            +4
+                        </div>
+                    </div>
+                    <div class="best-container">
+                        <p class="title">BEST</p>
+                        <P class="score">66666</P>
+                    </div>
+                </div>
+            </div>
+            <div class="game-intro">
+                <a href="" class="restart-btn">New Game</a>
+                <p>&nbsp;</p>
+                <p class="above-game">
+                    Reach the <strong>2048</strong> block to win the game.
+                </p>
+            </div>
+            <div class="game-container">
+                <div class="grid-container">
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                        <div class="grid-cell"></div>
+                    </div>
+                </div>
+                <div class="tile-container"></div>
+                <div class="failure-container pop-container">
+                    <p></p>
+                    <p>GAME OVER</p>
+                </div>
+                <div class="winning-container pop-container">
+                    <p></p>
+                    <p>WINNING</p>
+                </div>
+            </div>
+            <div class="footer">
+                <span>
+                    <a href="https://ming.jp.net">&lt; &nbsp;<span>Ming'sUtilities</span></a>
+                </span>
+            </div>
+        </div>
+    </body>
+    <script src="js/config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/event.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</html>
