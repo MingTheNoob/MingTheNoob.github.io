@@ -24,11 +24,3 @@ body, html {
 .paragraph {
     font-size: 1rem;
 }
-hr {
-	margin: auto;
-	width: 40%;
-	color: #dee2e6;
-}
-#timer {
-  	color: white;
-}
