@@ -75,7 +75,7 @@ function btnHandle( e ) {
         updateBtns();
         if( checkFinished() ) {
             setTimeout(function(){ 
-                alert( "WELL DONE!" );
+                alert( "Welp, what a way to waste your time." );
                 restart();
             }, 1);
         }
