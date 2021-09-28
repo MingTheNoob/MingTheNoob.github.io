@@ -24,15 +24,16 @@
         <script src="main.js"></script>
     </head>
     <body>
-       <div id="input"></div>
-       <div id="output"></div>
-       <script type='text/javascript'>
-            var a = window.prompt('Enter A number', '');
-            var b = window.prompt('Enter B number', '');
-            document.getElementById('input').innerHTML = a + ' ' + b;
-            
-            var sum = Number(a) + Number(b);
-            document.getElementById('output').innerHTML = sum;
+        <div>A simple addition calculator</div>
+        <div id="input"></div>
+        <div id="output"></div>
+        <script type='text/javascript'>
+                var a = window.prompt('Enter A number', '');
+                var b = window.prompt('Enter B number', '');
+                document.getElementById('input').innerHTML = a + '+' + b + '' + '=';
+                
+                var sum = Number(a) + Number(b);
+                document.getElementById('output').innerHTML = sum;
         </script>
     </body>
     <noscript>No script, no fun. Turn Javascript on.</noscript>
