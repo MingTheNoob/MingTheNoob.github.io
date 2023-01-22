@@ -406,7 +406,7 @@ section {
     font-size: 14px;
 }
 
-#contact {
+#contact, #categories {
     height: 100vh !important;
 }
 
