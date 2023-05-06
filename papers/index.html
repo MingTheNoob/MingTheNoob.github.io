@@ -5,10 +5,9 @@
 	<!-- Normal meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="description"
-		content="A collection of the things I write. I write educational things that I may one day use as scripts for YouTube videos.">
+	<meta name="description" content="A collection of the papers I write.">
 	<meta name="keywords"
-		content="ming, mingthenoob, developer, software, development, coding, programming, code, programmer, mingsutilities, blitzcream, blitzcreaminc">
+		content="ming, mingthenoob, the, noob, papers, writings, writing, computer, science, compsci, economics, politics, linguistics">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<meta name="title" content="MingsPapers">
 	<meta name="author" content="MingTheNoob">
@@ -18,14 +17,12 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://ming.jp.net/papers/">
 	<meta property="og:title" content="MingsPapers">
-	<meta property="og:description"
-		content="A collection of the things I write. I write educational things that I may one day use as scripts for YouTube videos.">
+	<meta property="og:description" content="A collection of the papers I write.">
 	<!-- Twitter and Discord -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="https://ming.jp.net/papers/">
 	<meta name="twitter:title" content="MingsPapers">
-	<meta name="twitter:description"
-		content="A collection of the things I write. I write educational things that I may one day use as scripts for YouTube videos.">
+	<meta name="twitter:description" content="A collection of the papers I write.">
 	<meta name="twitter:creator" content="@MingTheNoob">
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/szs/imgs/apple-touch-icon.png">
@@ -60,7 +57,7 @@
 <body>
 	<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 	<header id="header">
-		<div class="d-flex flex-column">
+		<div class="d-flex flex-column no-select">
 			<div class="profile">
 				<img id="main-image" src="/szs/imgs/android-chrome-192x192.png" alt="" class="img-fluid rounded-circle">
 				<h1 class="text-light"><a href="/">MingTheNoob</a></h1>
@@ -82,8 +79,7 @@
 					</a>
 				</div>
 			</div>
-
-			<nav id="navbar" class="nav-menu navbar">
+			<nav id="navbar" class="nav-menu d-flex flex-column">
 				<ul>
 					<li>
 						<a href="/" class="nav-link scrollto">
@@ -98,10 +94,49 @@
 						</a>
 					</li>
 					<li>
-						<a href="/papers/" class="nav-link scrollto active">
+						<a id="papersDropdown"
+							class="nav-link btn btn-toggle d-inline-flex align-items-center border-0 collapsed active"
+							data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
 							<i class='bx bxs-file'></i>
-							<span>Papers</span>
+							<span>Papers&nbsp;</span><box-icon id="chevron" name='chevron-up'
+								color="#a8a9b4"></box-icon>
 						</a>
+						<div id="orders-collapse">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li>
+									<i class='bx bx-subdirectory-right color-transparent'></i>
+									<a href="compsci/"
+										class="nav-link link-body-emphasis d-inline-flex text-decoration-none rounded">
+										<i class='bx bxs-terminal'></i>
+										<span>Computer Science</span>
+									</a>
+								</li>
+								<li>
+									<i class='bx bx-subdirectory-right color-transparent'></i>
+									<a href="linguistics/"
+										class="nav-link link-body-emphasis d-inline-flex text-decoration-none rounded">
+										<i class='bx bxs-book'></i>
+										<span>Linguistics</span>
+									</a>
+								</li>
+								<li>
+									<i class='bx bx-subdirectory-right color-transparent'></i>
+									<a href="psychology/"
+										class="nav-link link-body-emphasis d-inline-flex text-decoration-none rounded">
+										<i class='bx bxs-brain'></i>
+										<span>Psychology</span>
+									</a>
+								</li>
+								<li>
+									<i class='bx bx-subdirectory-right color-transparent'></i>
+									<a href="socsci/"
+										class="nav-link link-body-emphasis d-inline-flex text-decoration-none rounded">
+										<i class='bx bxs-buildings'></i>
+										<span>Social Sciences</span>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</li>
 				</ul>
 			</nav>
@@ -111,44 +146,133 @@
 		<div class="home-container" data-aos="fade-in">
 			<h1>Papers</h1>
 			<p>
-				Here you can read the papers I've written.
-				<a href="#categories">
+				Press the button or scroll down to search for papers.
+				<a href="#search">
 					<i class='bx bx-chevrons-down'></i>
 				</a>
 			</p>
 		</div>
 	</section>
 	<main id="main">
-		<section id="categories" class="contact services">
+		<section id="search" class="contact services">
 			<div class="container">
 				<div class="section-title">
-					<h2>Categories</h2>
-					<p>Below are the categories I've put my papers in:</p>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-						<h4 class="title">By Subject:</h4>
-						<p class="description">
-							<a href="/papers/compsci/">Computer Science</a>
-						</p>
-						<p class="description">
-							<a href="/papers/psychology/">Psychology</a>
-						</p>
-						<p class="description">
-							<a href="/papers/politics/">Politics</a>
-						</p>
+					<h2>All Papers</h2>
+					<div class="d-flex gap-2 py-2 paper-cat-toggles">
+						<a href="compsci/#search" class="paper-cat-toggle">
+							<i class='bx bxs-terminal'></i>&nbsp;Computer Science
+						</a>
+						<a href="linguistics/#search" class="paper-cat-toggle">
+							<i class='bx bxs-book'></i>&nbsp;Linguistics
+						</a>
+						<a href="psychology/#search" class="paper-cat-toggle">
+							<i class='bx bxs-brain'></i>&nbsp;Psychology
+						</a>
+						<a href="socsci/#search" class="paper-cat-toggle">
+							<i class='bx bxs-buildings'></i>&nbsp;Social Sciences
+						</a>
 					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-						<h4 class="title">By Date:</h4>
-						<p class="description">
-							<a href="/papers/2023/">2023</a>
-						</p>
+				</div>
+			</div>
+			<div class="container mb-3">
+				<div class="paper-padding paper-bg">
+					<div class="d-flex">
+						<h4>How to Define Socialism</h4>
+						<div class="d-flex gap-2 py-1">
+							<span class="paperTopicBadge gap-1 d-flex p-2 align-items-center">
+								<i class='bx bxs-buildings'></i>
+								Social Sciences
+							</span>
+						</div>
+					</div>
+					<p class="col-lg-8 fs-6 text-muted">
+						Understand the politics and economics of a state to determine if it is socialist or capitalist
+					</p>
+					<div class="d-inline-flex">
+						<a href="socsci/how-to-define-socialism">
+							<button
+								class="d-inline-flex align-items-center btn btn-primary btn-lg paper-btn read-paper-btn"
+								type="button">
+								Read
+								<i class='bx bx-chevron-right'></i>
+							</button>
+						</a>
+						<button id="htdsDlBtn" class="btn btn-outline-secondary btn-lg paper-btn download-paper-btn"
+							type="button">
+							Download
+							<i class='bx bx-download'></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="paper-padding paper-bg">
+					<div class="d-flex">
+						<h4>Why Workplace Democracy is Important</h4>
+						<div class="d-flex gap-2 py-1">
+							<span class="paperTopicBadge gap-1 d-flex p-2 align-items-center">
+								<i class='bx bxs-buildings'></i>
+								Social Sciences
+							</span>
+						</div>
+					</div>
+					<p class="col-lg-8 fs-6 text-muted">
+						Understand the importance of workplace democracy and how it can be implemented
+					</p>
+
+					<div class="d-inline-flex">
+						<a href="socsci/why-workplace-democracy-is-important">
+							<button
+								class="d-inline-flex align-items-center btn btn-primary btn-lg paper-btn read-paper-btn"
+								type="button">
+								Read
+								<i class='bx bx-chevron-right'></i>
+							</button>
+						</a>
+						<button id="wwdiiDlBtn" class="btn btn-outline-secondary btn-lg paper-btn download-paper-btn"
+							type="button">
+							Download
+							<i class='bx bx-download'></i>
+						</button>
 					</div>
 				</div>
 			</div>
 		</section>
 	</main>
+	<div class="modal modal-sheet d-none p-4 py-md-5" tabindex="-1" role="dialog" id="downloadModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content rounded-4 shadow">
+				<div class="modal-header p-5 pb-4 border-bottom-0">
+					<h1 id="downloadModalHeader" class="fw-bold mb-0 fs-2">Download</h1>
+					<i id="closeDownloadModalBtn" class="ri-close-line"></i>
+				</div>
+
+				<div class="modal-body p-5 pt-0">
+					<hr class="mb-4 mt-0">
+					<button id="downloadPdfBtn" class="w-100 py-2 mb-2 btn btn-outline-secondary modal-download-paper-btn" type="submit">
+						<i class='bx bxs-file-pdf'></i>
+						PDF Document (.pdf)
+					</button>
+					<button id="downloadDocxBtn" class="w-100 py-2 mb-2 btn btn-outline-primary modal-download-paper-btn" type="submit">
+						<i class='bx bxs-file-doc'></i>
+						Microsoft Document (.docx)
+					</button>
+					<button id="downloadOdtBtn" class="w-100 py-2 mb-2 btn btn-outline-secondary modal-download-paper-btn" type="submit">
+						<i class='bx bxs-file-blank'></i>
+						OpenDocument (.odt)
+					</button>
+					<button id="downloadTxtBtn" class="w-100 py-2 mb-2 btn btn-outline-primary modal-download-paper-btn" type="submit">
+						<i class='bx bxs-file-txt'></i>
+						Plain Text (.txt)
+					</button>
+					<button id="downloadHtmlBtn" class="w-100 py-2 mb-2 btn btn-outline-primary modal-download-paper-btn" type="submit">
+						<i class='bx bxs-file-html'></i>
+						HTML Document (.html)
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer id="footer">
 		<div class="container">
 			<div class="copyright">
@@ -171,18 +295,19 @@
 		integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
-		integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"
 		integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
-		integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
 		integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script src="/szs/js/main.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/dist/boxicons.min.js"
+		integrity="sha512-VTptlAlSWKaYE3DbrmwNYTzZg1zO6CtoGxplxlHxObgfLiCcRYDBqzTUWE/0ANUmyfYR7R227ZirV/I4rQsPNA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="/szs/js/script.min.js"></script>
+	<script src="/szs/js/main.js"></script>
+	<script src="/szs/js/download.js"></script>
 
 </body>
 
