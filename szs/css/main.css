@@ -874,13 +874,35 @@ section {
 }
 
 .paper-content {
-    width: 60% !important;
+    width: 70% !important;
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    padding: 0.5rem 3rem 3rem 3rem !important;
+    border-radius: 1rem !important;
 }
-.paper-content > p {
+.paper-content-items > p {
     text-align: justify !important;
-    color: rgba(255, 255, 255, 0.65) !important;
+    color: rgba(255, 255, 255, 0.3) !important;
 }
-.paper-content > h3 {
+.paper-content-items > h3 {
     text-align: center !important;
     margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+}
+
+.h-100p {
+    height: 100% !important;
+}
+.w-100p {
+    width: 100% !important;
+}
+
+.paper-side-section {
+    width: 25% !important;
+    height: auto !important;
+    display: inline-block !important;
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    padding: 0.5rem 3rem 3rem 3rem !important;
+    border-radius: 1rem !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+    padding-top: 1rem !important;
 }
