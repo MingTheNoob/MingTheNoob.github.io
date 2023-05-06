@@ -26,6 +26,10 @@ h6 {
     font-family: "Space Grotesk", sans-serif;
 }
 
+.color-transparent {
+    color: transparent !important;
+}
+
 /* Back to top button */
 .back-to-top {
     position: fixed;
@@ -115,7 +119,7 @@ h6 {
     text-decoration: none;
 }
 
-#main {
+#main, #main-paper-content {
     margin-left: 300px;
 }
 
@@ -124,7 +128,7 @@ h6 {
         left: -300px;
     }
 
-    #main {
+    #main, #main-paper-content {
         margin-left: 0;
     }
 }
@@ -406,7 +410,7 @@ section {
     font-size: 14px;
 }
 
-#contact, #categories {
+#contact, #categories, #search, #paperContent {
     height: 100vh !important;
 }
 
@@ -654,4 +658,229 @@ section {
         width: auto;
         padding-right: 20px 15px;
     }
+}
+
+.paper-bg {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0.75rem !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+}
+
+.paper-btn {
+    border-radius: 0% !important;
+    padding: 0.5rem !important;
+}
+
+.read-paper-btn {
+    border-radius: 0.75rem 0 0 0.75rem !important;
+    padding-right: 0 !important;
+    background-color: rgba(49, 88, 59, 0.1) !important;
+    border: 1px solid rgba(196, 255, 199, 0.5) !important;
+    color: #ebebeb !important;
+    font-size: medium !important;
+}
+.read-paper-btn:hover {
+    background-color: rgba(49, 88, 57, 0.4) !important;
+    color: #ebebeb !important;
+}
+
+.download-paper-btn {
+    border-radius: 0 0.75rem 0.75rem 0 !important;
+    border: 1px solid rgba(134, 104, 255, 0.5) !important;
+    background-color: rgba(10, 0, 48, 0.1) !important;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: medium !important;
+}
+.download-paper-btn:hover {
+    background-color: rgba(57, 49, 88, 0.4) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.paper-padding {
+    padding: 1.5rem !important;
+}
+
+.no-select {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.paper-cat-toggles > span > i {
+    font-size: 1.15rem !important;
+    vertical-align: middle !important;
+    align-items: center !important;
+}
+
+.paper-cat-toggle {
+    border-radius: 0.75rem !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+    background-color: rgba(158, 134, 255, 0.1) !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    align-items: center !important;
+    color: #e6e6e6 !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+.paper-cat-toggle:hover {
+    background-color: rgba(158, 134, 255, 0.2) !important;
+}
+
+#downloadModal {
+    background-color: transparent !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 9999 !important;
+    backdrop-filter: blur(0.5rem) !important;
+}
+
+.modal-content {
+    background-color: #030910 !important;
+}
+
+#closeDownloadModalBtn {
+    cursor: pointer !important;
+    font-size: 1.5rem !important;
+}
+
+#downloadModalHeader {
+    font-size: 1.5rem !important;
+}
+.downloadModalHeaderPaperTitle {
+    font-size: 1rem !important;
+    color: rgba(255, 255, 255, 0.45) !important;
+    font-style: italic !important;
+    display: block !important;
+}
+
+.paperTopicBadge {
+    background-color: rgba(158, 134, 255, 0.1) !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+    border-radius: 0.75rem !important;
+    margin-left: 0.5rem !important;
+    font-size: 0.75rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    height: 1.5rem !important;
+    font-style: normal !important;
+    color: #e6e6e6 !important;
+}
+
+.vertical-align-middle {
+    vertical-align: middle !important;
+}
+.modal-download-paper-btn {
+    border-radius: 0.75rem !important;
+    border: 1px solid rgba(134, 104, 255, 0.5) !important;
+    background-color: rgba(10, 0, 48, 0.1) !important;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: medium !important;
+}
+.modal-download-paper-btn:hover {
+    background-color: rgba(57, 49, 88, 0.4) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#closePaperCat {
+    cursor: pointer !important;
+    color: rgba(255, 255, 255, 0.45) !important;
+    vertical-align: middle !important;
+
+}
+
+.selected-paper-cat-toggle {
+    border-radius: 0.75rem !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+    background-color: rgba(158, 134, 255, 0.1) !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    align-items: center !important;
+    color: #e6e6e6 !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+#closePaperCat:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.paper-title {
+    padding-bottom: 1rem !important;
+}
+
+.paper-title h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    color: #94c0e8;
+    margin-bottom: 0 !important;
+}
+
+#paperTitleSubtext {
+    position: relative !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    font-size: 0.85rem !important;
+    font-style: italic !important;
+    color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.paper-title span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5rem !important;
+    height: 0.15rem !important;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+#main-paper-content {
+    background-color: #010d1b !important;
+}
+
+#backToSocSciPapersBtn {
+    background-color: rgba(158, 134, 255, 0.1) !important;
+    border: 1px solid rgba(158, 134, 255, 0.5) !important;
+    border-radius: 0.75rem !important;
+    margin-left: 1rem !important;
+    font-size: 1rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    height: 1.5rem !important;
+    font-style: normal !important;
+    color: #e6e6e6 !important;
+    margin-top: 1.25rem !important;
+    cursor: pointer !important;
+}
+
+.paper-content {
+    width: 60% !important;
+}
+.paper-content > p {
+    text-align: justify !important;
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+.paper-content > h3 {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
 }
