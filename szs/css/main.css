@@ -1038,7 +1038,6 @@ section {
 
 .papers .sidebar .recent-papers .paper-item {
     display: flex;
-    box-shadow: 0px 0 1rem rgba(0, 0, 0, 0.08);
     padding: 1.25rem;
 }
 .papers .sidebar .recent-papers .paper-item p {
