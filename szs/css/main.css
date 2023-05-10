@@ -1045,6 +1045,10 @@ section {
     color: rgba(238, 238, 238, 0.5);
 }
 
+.source-item {
+    margin-bottom: 0.5rem;
+}
+
 .papers .sidebar .recent-papers .paper-item + .paper-item {
     margin-top: 1rem;
 }
